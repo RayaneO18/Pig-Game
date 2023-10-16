@@ -76,7 +76,7 @@ btnHold.addEventListener('click', () => {
     document.getElementById(`score--${activePlayer}`).textContent =
       score[activePlayer]; // save le score du joueur actif
 
-    if (score[activePlayer] >= 10) {
+    if (score[activePlayer] >= 100) {
       //check si un joueur >= 100
       document.getElementById(`name--${activePlayer}`).textContent =
         "YOU'RE THE WINNER!";
